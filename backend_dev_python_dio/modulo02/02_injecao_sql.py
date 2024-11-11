@@ -7,8 +7,8 @@ conexao = sqlite3.connect(ROOT_PATH / "meu_banco.sqlite")
 cursor = conexao.cursor()
 cursor.row_factory = sqlite3.Row
 
-id_cliente = input('Informe o ID do cliente: ')
 
+id_cliente = input('Informe o ID do cliente: ')
 # nao fazer assim
 # cliente = cursor.execute(f'SELECT * FROM clientes WHERE id={id_cliente}')
 
