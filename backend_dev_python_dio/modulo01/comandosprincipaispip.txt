@@ -1,0 +1,17 @@
+Python Ambiente Virtual
+
+pip install
+pip uninstall
+pip search // nao existe mais
+pip list
+pip upgrade
+
+pipenv install numpy
+pipenv uninstall numpy
+pipenv lock
+pipenv graph
+
+poetry new myproject
+cd myproject
+poetry add numpy
+poetry remove numpy

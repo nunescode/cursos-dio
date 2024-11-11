@@ -1,0 +1,28 @@
+https://peps.python.org/pep-0008/
+
+Principais recomendações:
+- Usar 4 espaços para a identação;
+- limitar as linhas a 79 caracteres;
+- usar nome de variáveis em snake_case para funções e variáveis, e CamelCase para classes.
+
+Ferramentas de checagem de estilo
+- flake8
+
+pip install flake8
+
+flake8 meu_script.py
+
+flake8 --help
+flake8 --max-line-length=120
+
+Formatação automática de código
+- Black
+
+pip install black
+black meu_script.py
+
+Organização de imports
+- isort
+
+pip install isort
+isord meu_script.py
